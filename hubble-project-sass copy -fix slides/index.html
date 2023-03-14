@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubble Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="shortcut icon" href="favicon-nasa.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@100;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Nav - Search box -->
+    <header>
+      <div class="logo">
+        <img width="250px" src="logo.png" alt="Logo Nasa Hubble Telescope" />
+      </div>
+      <div class="search-hamburger">
+        <div class="search-bar">
+          <button type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="hamburger-icon">
+          <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <main class="hero">
+      <div class="hero-text">
+        <h1 class="hero-text-h1">HUBBLE SPACE TELESCOPE</h1>
+        <h2 class="hero-text-h2">Embark on a Journey of Discovery</h2>
+      </div>
+    </main>
+    <!-- Latest News -->
+    <div class="latest-news">
+      <h2 class="latest-news-h2">LATEST NEWS</h2>
+      <div class="gold-line"></div>
+      <h2 class="latest-news-h2-bold">MARCH 01, 2023</h2>
+      <p class="latest-news-p">
+        Hubble Captures Movie of DART Asteroid Impact Debris
+      </p>
+      <a href="https://hubblesite.org/contents/news-releases/2023/news-2023-006"
+        ><button class="latest-news-button">Read More</button></a
+      >
+    </div>
+    <!-- Circles - News - Images - Videos -->
+    <div class="circles-container">
+      <ul class="circles-list">
+        <li class="circle-news">
+          <div class="circle-news-container">
+            <h3 class="circle-news-title">
+              <a href="https://hubblesite.org/news/news-releases">News</a>
+            </h3>
+            <img
+              class="image-circles-news"
+              src="circles-images/circles-news.jpeg"
+              alt="Side view of Hubble Telescope"
+            />
+          </div>
+          <div class="golden-arrow"></div>
+        </li>
+        <div class="white-line-circles">
+          <!-- margin: auto width -100%  -->
+        </div>
+        <li class="circle-images">
+          <div class="circle-news-container">
+            <h3 class="circle-images-title">
+              <a href="https://hubblesite.org/resource-gallery/images"
+                >Images</a
+              >
+            </h3>
+            <img
+              class="image-circles-news"
+              src="circles-images/circles-images.jpeg"
+              alt="Barred Spiral Galaxy NGC 1300"
+            />
+          </div>
+          <div class="golden-arrow"></div>
+        </li>
+        <li class="circle-videos">
+          <div class="circle-news-container">
+            <h3 class="circle-images-title">
+              <a href="https://hubblesite.org/resource-gallery/videos"
+                >Videos</a
+              >
+            </h3>
+            <img
+              class="image-circles-news"
+              src="circles-images/circles-videos.jpeg"
+              alt="Barred Spiral Galaxy NGC 1300"
+            />
+          </div>
+          <div class="golden-arrow"></div>
+        </li>
+      </ul>
+    </div>
+    <!-- Announcements  -->
+    <div class="announcements-primary-container">
+      <h2 class="announcements-title">Announcements</h2>
+      <div class="gold-line"></div>
+      <div class="announccements-secondary-container">
+        <h3 class="announcements-h3">
+          Monthly Tonight's Sky March Video Now Available
+        </h3>
+        <p class="announcements-p">
+          Learn more about the constellations you can observe in the night sky
+          during the month of March.
+          <a
+            href="https://hubblesite.org/resource-gallery/learning-resources/tonights-sky"
+            ><span>WATCH VIDEO > </span></a
+          >
+        </p>
+      </div>
+      <div class="announccements-secondary-container">
+        <h3 class="announcements-h3">Introducing Hubble's ULLYSES Program</h3>
+        <p class="announcements-p">
+          Hubble has embarked on an extensive three-year program to observe the
+          ultraviolet emissions of young stars.
+          <a
+            href="https://hubblesite.org/mission-and-telescope/hubbles-ullyses-program"
+            ><span>LEARN MORE > </span></a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- Hubble Favourites Section -->
+    <div class="hubble-favorites-title">
+      <h2 class="latest-news-h2">Hubble Favorites</h2>
+      <div class="gold-line"></div>
+      <h3 class="hubble-favorites-h3">VIEW ALL HUBBLE FAVORITES</h3>
+    </div>
+    <!-- Hubble slides Section -->
+    <section class="carousel">
+      <button
+        class="slider-button slider-button-prev"
+        data-slide-direction="prev"
+      >
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+      <button
+        class="slider-button slider-button-next"
+        data-slide-direction="next"
+      >
+        <i class="fa-regular fa-angle-right"></i>
+      </button>
+      <ul class="slides">
+        <li class="slide" data-active-slide>
+          <img
+            src="favourites-slideshow/favourites-img-1.png"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-2.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-3.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-4.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-5.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-6.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-7.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+        <li class="slide">
+          <img
+            src="favourites-slideshow/favourites-slideshow-img-7.jpeg"
+            alt="photos taken by hubble"
+          />
+        </li>
+      </ul>
+      <div class="slides-circles">
+        <div data-active-slide></div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
+    <!-- Resources section -->
+    <div class="hubble-resources-title">
+      <h2 class="resources-news-h2">Resources</h2>
+      <div class="gold-line"></div>
+    </div>
+    <!-- first square -->
+    <div class="wrapper">
+      <div class="img-box">
+        <div class="info">
+          <img
+            class="img-front"
+            src="resources-images/resources-hubble-science.jpeg"
+            alt="hubble science"
+          />
+          <div class="lolo">
+            <h2 class="resources-header-front-card">Hubble Science</h2>
+            <p class="resources-p-front-card">
+              Open new doors to the universe with Hubble's discoveries
+            </p>
+          </div>
+        </div>
+        <div class="desc">
+          <button class="btn-resources" type="button">
+            Explore the science
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- second square -->
+  </body>
+</html>
